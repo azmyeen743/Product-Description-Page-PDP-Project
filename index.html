@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smart Home Security Camera</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        
+        .navbar {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .nav-link {
+            font-size: 1rem;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: #fff !important;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .nav-link:hover {
+            background-color: #00c6ff;
+            color: #fff !important;
+        }
+        .nav-item .active {
+            background-color: #00c6ff;
+            color: #fff !important;
+        }
+
+        
+        .product-section img {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px; /* Reduced image size */
+            display: block;
+            margin: 0 auto;
+        }
+        .product-section h2 {
+            font-weight: bold;
+            color: #333;
+        }
+        .product-section .price {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #28a745;
+        }
+        .btn-success {
+            font-size: 1.1rem;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-success:hover {
+            background-color: #218838;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        ul li::before {
+            content: "\f058"; /* FontAwesome check icon */
+            font-family: FontAwesome;
+            color: #28a745;
+            margin-right: 10px;
+        }
+
+        
+        footer {
+            background-color: #212529;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #00c6ff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: #00a6d9;
+        }
+        footer a i {
+            font-size: 1.5rem; /* Increased icon size */
+            margin: 0 10px; /* Added spacing between icons */
+        }
+    </style>
+</head>
+<body>
+
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Brothers Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container product-section mt-5">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img src="camera.jpg" class="rounded shadow-sm" alt="Smart Home Security Camera">
+            </div>
+            <div class="col-md-6">
+                <h2>Smart Home Security Camera</h2>
+                <p class="text-muted">Advanced protection for your home and peace of mind</p>
+                <p class="price">$200.99</p>
+                <button class="btn btn-success mb-4"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+
+                <h4 class="mt-4">Key Features</h4>
+                <ul>
+                    <li>4K Ultra HD Video Resolution</li>
+                    <li>180-Degree Wide-Angle Lens</li>
+                    <li>Night Vision up to 30 Feet</li>
+                    <li>AI-Powered Motion Detection</li>
+                    <li>Cloud and Local Storage Options</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="text-center py-4 mt-5">
+        <div class="container">
+            <p>&copy; 2024 <strong>Tech Security</strong>. All Rights Reserved.</p>
+            <p>Follow us on: 
+                <a href="https://www.facebook.com/share/1JF6KEd1Bd/?mibextid=LQQJ4d"><i class="fab fa-facebook"></i></a> 
+                <a href="#"><i class="fab fa-twitter"></i></a> 
+                <a href="https://www.instagram.com/_sohan_41/"><i class="fab fa-instagram"></i></a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
